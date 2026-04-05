@@ -1,5 +1,5 @@
 require('dotenv').config();
-const { insertSale } = require('../lib/sales-service');
+const { insertSale } = require('../src/lib/sales-service');
 
 const PRODUCTS = [
   'Wireless Earbuds Pro',

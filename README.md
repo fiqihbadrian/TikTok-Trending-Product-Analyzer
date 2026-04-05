@@ -28,26 +28,27 @@ Dashboard untuk memonitor produk affiliate yang sedang naik berdasarkan sinyal d
 ## Project Structure
 
 ```txt
-app/
-  api/
-    health/route.js
-    top-month/route.js
-    trending/route.js
-    product-search/route.js
-    product/[name]/route.js
-  globals.css
-  layout.js
-  page.js
-components/
-  SalesChart.js
-  SearchBar.js
-  SearchResults.js
-  ThemeSwitcher.js
-lib/
-  db.js
-  sales-service.js
-  tiktok-scraper.js
-  product-category.js
+src/
+  app/
+    api/
+      health/route.js
+      top-month/route.js
+      trending/route.js
+      product-search/route.js
+      product/[name]/route.js
+    globals.css
+    layout.js
+    page.js
+  components/
+    SalesChart.js
+    SearchBar.js
+    SearchResults.js
+    ThemeSwitcher.js
+  lib/
+    db.js
+    sales-service.js
+    tiktok-scraper.js
+    product-category.js
 scripts/
   init-db.js
   seed.js

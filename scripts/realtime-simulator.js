@@ -1,5 +1,5 @@
 require('dotenv').config();
-const { insertRandomSaleFromTikTok } = require('../lib/sales-service');
+const { insertRandomSaleFromTikTok } = require('../src/lib/sales-service');
 
 const INTERVAL_MS = 10000;
 

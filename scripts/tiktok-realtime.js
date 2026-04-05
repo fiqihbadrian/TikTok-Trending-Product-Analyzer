@@ -1,6 +1,6 @@
 require('dotenv').config();
-const { insertSale } = require('../lib/sales-service');
-const { scrapeTikTokShop } = require('../lib/tiktok-scraper');
+const { insertSale } = require('../src/lib/sales-service');
+const { scrapeTikTokShop } = require('../src/lib/tiktok-scraper');
 
 // Interval dalam milliseconds (default 5 menit = 300000 ms)
 const INTERVAL_MS = Number(process.env.TIKTOK_SCRAPE_INTERVAL) || 300000;
