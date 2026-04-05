@@ -2,6 +2,8 @@
 
 Dashboard untuk memonitor produk affiliate yang sedang naik berdasarkan sinyal data publik TikTok.
 
+note: Masih dalam perbaikan
+
 ## Stack
 
 - Next.js 14 (App Router)
