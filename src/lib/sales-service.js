@@ -6,6 +6,7 @@ async function getTopProductsThisMonth(limit = 10) {
   const hasSourceUrl = await db.hasColumn('sales', 'source_url');
   const sourceUrlSelect = hasSourceUrl ? 'sales.source_url' : 'NULL AS source_url';
 
+
   const sql = `
     WITH ranked AS (
       SELECT
